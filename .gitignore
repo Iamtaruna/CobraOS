@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+
+# Node / React Native
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.expo/
+.expo-shared/
+dist/
+build/
+*.log
+
+# iOS / Xcode
+ios/build/
+ios/Pods/
+*.xcuserdatad/
+*.xcscmblueprint
+DerivedData/
+*.xcworkspace/xcuserdata/
+
+# Android
+android/.gradle/
+android/.idea/
+android/app/build/
+*.iml
+
+# Env & secrets
+.env
+.env.*
+.keystore
+*.pem
+*.p12
+*.key
+*.mobileprovision
+
+# Misc
+coverage/
+

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9818C3A92DDC0A6800DF76E9 /* GreetingCardTutorialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9818C3A82DDC0A6800DF76E9 /* GreetingCardTutorialScreen.swift */; };
+		9818C3AC2E079B7B00DF76E9 /* Runestone in Frameworks */ = {isa = PBXBuildFile; productRef = 9818C3AB2E079B7B00DF76E9 /* Runestone */; };
+		98A7D0632DD141F60026A51F /* Tutorial_one.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A7D0622DD141F60026A51F /* Tutorial_one.swift */; };
+		98A7D0652DD1665F0026A51F /* CardTutorialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A7D0642DD1665F0026A51F /* CardTutorialScreen.swift */; };
 		98B7F1EA2D8759D8005FBAE5 /* CobraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F1E92D8759D8005FBAE5 /* CobraApp.swift */; };
 		98B7F1EC2D8759D8005FBAE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F1EB2D8759D8005FBAE5 /* ContentView.swift */; };
 		98B7F1EE2D8759D9005FBAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B7F1ED2D8759D9005FBAE5 /* Assets.xcassets */; };
@@ -14,6 +18,21 @@
 		98B7F1FC2D8759D9005FBAE5 /* CobraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F1FB2D8759D9005FBAE5 /* CobraTests.swift */; };
 		98B7F2062D8759D9005FBAE5 /* CobraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F2052D8759D9005FBAE5 /* CobraUITests.swift */; };
 		98B7F2082D8759D9005FBAE5 /* CobraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F2072D8759D9005FBAE5 /* CobraUITestsLaunchTests.swift */; };
+		98B7F2152D875A20005FBAE5 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F2142D875A20005FBAE5 /* HomeScreen.swift */; };
+		98B7F2172D875B32005FBAE5 /* LessonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F2162D875B32005FBAE5 /* LessonScreen.swift */; };
+		98B7F2192D875B64005FBAE5 /* UpgradePlanScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F2182D875B64005FBAE5 /* UpgradePlanScreen.swift */; };
+		98B7F21B2D875B83005FBAE5 /* DashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F21A2D875B83005FBAE5 /* DashboardScreen.swift */; };
+		98B7F21D2D875B9F005FBAE5 /* ChallengesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F21C2D875B9F005FBAE5 /* ChallengesScreen.swift */; };
+		98B7F21F2D875BD5005FBAE5 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F21E2D875BD5005FBAE5 /* MainTabView.swift */; };
+		98B7F2212D875C1C005FBAE5 /* LeaderboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F2202D875C1C005FBAE5 /* LeaderboardScreen.swift */; };
+		98B7F2252D875C83005FBAE5 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F2242D875C83005FBAE5 /* SignUpScreen.swift */; };
+		98B7F2272D875CA8005FBAE5 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F2262D875CA8005FBAE5 /* Color+Extension.swift */; };
+		98B7F2292D875CC8005FBAE5 /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F2282D875CC8005FBAE5 /* OnBoardingScreen.swift */; };
+		98B7F22B2D875CE9005FBAE5 /* ReviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F22A2D875CE9005FBAE5 /* ReviewScreen.swift */; };
+		98B7F22D2D875D02005FBAE5 /* UserProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F22C2D875D02005FBAE5 /* UserProfileScreen.swift */; };
+		98B7F22F2D875D20005FBAE5 /* CommunityScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F22E2D875D20005FBAE5 /* CommunityScreen.swift */; };
+		98B7F2312D875D3B005FBAE5 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F2302D875D3B005FBAE5 /* SettingsScreen.swift */; };
+		98B7F2332D875D51005FBAE5 /* LessonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7F2322D875D51005FBAE5 /* LessonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9818C3A82DDC0A6800DF76E9 /* GreetingCardTutorialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingCardTutorialScreen.swift; sourceTree = "<group>"; };
+		98A7D0622DD141F60026A51F /* Tutorial_one.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_one.swift; sourceTree = "<group>"; };
+		98A7D0642DD1665F0026A51F /* CardTutorialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTutorialScreen.swift; sourceTree = "<group>"; };
 		98B7F1E62D8759D8005FBAE5 /* Cobra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cobra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B7F1E92D8759D8005FBAE5 /* CobraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobraApp.swift; sourceTree = "<group>"; };
 		98B7F1EB2D8759D8005FBAE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +67,21 @@
 		98B7F2012D8759D9005FBAE5 /* CobraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CobraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B7F2052D8759D9005FBAE5 /* CobraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobraUITests.swift; sourceTree = "<group>"; };
 		98B7F2072D8759D9005FBAE5 /* CobraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98B7F2142D875A20005FBAE5 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		98B7F2162D875B32005FBAE5 /* LessonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonScreen.swift; sourceTree = "<group>"; };
+		98B7F2182D875B64005FBAE5 /* UpgradePlanScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradePlanScreen.swift; sourceTree = "<group>"; };
+		98B7F21A2D875B83005FBAE5 /* DashboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScreen.swift; sourceTree = "<group>"; };
+		98B7F21C2D875B9F005FBAE5 /* ChallengesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesScreen.swift; sourceTree = "<group>"; };
+		98B7F21E2D875BD5005FBAE5 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		98B7F2202D875C1C005FBAE5 /* LeaderboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardScreen.swift; sourceTree = "<group>"; };
+		98B7F2242D875C83005FBAE5 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		98B7F2262D875CA8005FBAE5 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		98B7F2282D875CC8005FBAE5 /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
+		98B7F22A2D875CE9005FBAE5 /* ReviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewScreen.swift; sourceTree = "<group>"; };
+		98B7F22C2D875D02005FBAE5 /* UserProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileScreen.swift; sourceTree = "<group>"; };
+		98B7F22E2D875D20005FBAE5 /* CommunityScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityScreen.swift; sourceTree = "<group>"; };
+		98B7F2302D875D3B005FBAE5 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		98B7F2322D875D51005FBAE5 /* LessonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9818C3AC2E079B7B00DF76E9 /* Runestone in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +113,16 @@
 		98B7F1DD2D8759D8005FBAE5 = {
 			isa = PBXGroup;
 			children = (
+				9818C3A82DDC0A6800DF76E9 /* GreetingCardTutorialScreen.swift */,
+				98A7D0642DD1665F0026A51F /* CardTutorialScreen.swift */,
+				98A7D0622DD141F60026A51F /* Tutorial_one.swift */,
+				98B7F2142D875A20005FBAE5 /* HomeScreen.swift */,
+				98B7F2162D875B32005FBAE5 /* LessonScreen.swift */,
+				98B7F2182D875B64005FBAE5 /* UpgradePlanScreen.swift */,
+				98B7F21A2D875B83005FBAE5 /* DashboardScreen.swift */,
+				98B7F21C2D875B9F005FBAE5 /* ChallengesScreen.swift */,
+				98B7F21E2D875BD5005FBAE5 /* MainTabView.swift */,
+				98B7F2202D875C1C005FBAE5 /* LeaderboardScreen.swift */,
 				98B7F1E82D8759D8005FBAE5 /* Cobra */,
 				98B7F1FA2D8759D9005FBAE5 /* CobraTests */,
 				98B7F2042D8759D9005FBAE5 /* CobraUITests */,
@@ -97,6 +145,14 @@
 			children = (
 				98B7F1E92D8759D8005FBAE5 /* CobraApp.swift */,
 				98B7F1EB2D8759D8005FBAE5 /* ContentView.swift */,
+				98B7F2242D875C83005FBAE5 /* SignUpScreen.swift */,
+				98B7F2262D875CA8005FBAE5 /* Color+Extension.swift */,
+				98B7F2282D875CC8005FBAE5 /* OnBoardingScreen.swift */,
+				98B7F22A2D875CE9005FBAE5 /* ReviewScreen.swift */,
+				98B7F22C2D875D02005FBAE5 /* UserProfileScreen.swift */,
+				98B7F22E2D875D20005FBAE5 /* CommunityScreen.swift */,
+				98B7F2302D875D3B005FBAE5 /* SettingsScreen.swift */,
+				98B7F2322D875D51005FBAE5 /* LessonModel.swift */,
 				98B7F1ED2D8759D9005FBAE5 /* Assets.xcassets */,
 				98B7F1EF2D8759D9005FBAE5 /* Cobra.entitlements */,
 				98B7F1F02D8759D9005FBAE5 /* Preview Content */,
@@ -145,6 +201,9 @@
 			dependencies = (
 			);
 			name = Cobra;
+			packageProductDependencies = (
+				9818C3AB2E079B7B00DF76E9 /* Runestone */,
+			);
 			productName = Cobra;
 			productReference = 98B7F1E62D8759D8005FBAE5 /* Cobra.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +276,9 @@
 				Base,
 			);
 			mainGroup = 98B7F1DD2D8759D8005FBAE5;
+			packageReferences = (
+				9818C3AA2E079B7B00DF76E9 /* XCRemoteSwiftPackageReference "Runestone" */,
+			);
 			productRefGroup = 98B7F1E72D8759D8005FBAE5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +321,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B7F2312D875D3B005FBAE5 /* SettingsScreen.swift in Sources */,
+				98B7F22D2D875D02005FBAE5 /* UserProfileScreen.swift in Sources */,
+				98B7F2292D875CC8005FBAE5 /* OnBoardingScreen.swift in Sources */,
+				98B7F2192D875B64005FBAE5 /* UpgradePlanScreen.swift in Sources */,
+				9818C3A92DDC0A6800DF76E9 /* GreetingCardTutorialScreen.swift in Sources */,
+				98A7D0632DD141F60026A51F /* Tutorial_one.swift in Sources */,
+				98B7F22F2D875D20005FBAE5 /* CommunityScreen.swift in Sources */,
+				98A7D0652DD1665F0026A51F /* CardTutorialScreen.swift in Sources */,
 				98B7F1EC2D8759D8005FBAE5 /* ContentView.swift in Sources */,
+				98B7F21B2D875B83005FBAE5 /* DashboardScreen.swift in Sources */,
+				98B7F21F2D875BD5005FBAE5 /* MainTabView.swift in Sources */,
+				98B7F21D2D875B9F005FBAE5 /* ChallengesScreen.swift in Sources */,
+				98B7F2252D875C83005FBAE5 /* SignUpScreen.swift in Sources */,
+				98B7F2212D875C1C005FBAE5 /* LeaderboardScreen.swift in Sources */,
+				98B7F2172D875B32005FBAE5 /* LessonScreen.swift in Sources */,
 				98B7F1EA2D8759D8005FBAE5 /* CobraApp.swift in Sources */,
+				98B7F2272D875CA8005FBAE5 /* Color+Extension.swift in Sources */,
+				98B7F2152D875A20005FBAE5 /* HomeScreen.swift in Sources */,
+				98B7F22B2D875CE9005FBAE5 /* ReviewScreen.swift in Sources */,
+				98B7F2332D875D51005FBAE5 /* LessonModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,6 +684,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9818C3AA2E079B7B00DF76E9 /* XCRemoteSwiftPackageReference "Runestone" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simonbs/Runestone";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9818C3AB2E079B7B00DF76E9 /* Runestone */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9818C3AA2E079B7B00DF76E9 /* XCRemoteSwiftPackageReference "Runestone" */;
+			productName = Runestone;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 98B7F1DE2D8759D8005FBAE5 /* Project object */;
 }
